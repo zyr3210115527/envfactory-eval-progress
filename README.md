@@ -1,10 +1,8 @@
-# envfactory-v3 step0599 评测进度
+# 进度
 
-手机上看这个仓库就能知道进展。
+手机上看这个仓库就能知道进展。所有更新都是手写的，不再有自动 commit。
 
-- **[STATUS.md](STATUS.md)** — 机器每 10 分钟自动刷新：服务是否健康、几张卡在跑、各评测跑到第几题。想快速瞄一眼就看这个。
-- **[PROGRESS.md](PROGRESS.md)** — 人写的总览：做了什么、踩了什么坑、下一步是什么。
+- **[RL_V4.md](RL_V4.md)** — **当前主线**：RL v4 预算条件化训练。跑成没有、曲线什么样，看这个。
+- **[PROGRESS.md](PROGRESS.md)** — 评测线（Toolathlon、MCPMark），envfactory-v3 step0599 及 SFT step3000。
+- **[STATUS.md](STATUS.md)** — 已停止刷新。原来是每 10 分钟机器自动 commit 的快照，最后一次是 08-06 19:18。
 - `log/` — 关键节点的原始输出。
-
-被测模型：`/user/zhouyiran/projects/envfactory_v3_hf/step0599`
-评测：Toolathlon、MCPMark
